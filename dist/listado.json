@@ -1,0 +1,12 @@
+{
+  "listado": [{
+    "titulo": "Primer Elemento",
+    "detalle": "Esto es el detalle del primer elemento."
+  }, {
+    "titulo": "Segundo",
+    "detalle": "Esto es el detalle del segundo elemento."
+  }, {
+    "titulo": "Tercer Elemento",
+    "detalle": "Esto es el detalle del tercer y último elemento."
+  }]
+}
