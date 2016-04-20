@@ -13,10 +13,16 @@
 <body ng-controller="MainController as ctrl">
 <header>
     <h1>Lista</h1>
+
 </header>
 
 <div>
+    <!-- dl con la clase dl-horizontal -->
     <dl class="dl-horizontal" id="lista">
+        <!--Para añadir los elementos del array, usamos el atributo ng-repeat-star/ng-repeat-end
+            que itera sobre los elementos -->
+        <dt class='text-success' ng-repeat-start="i in ctrl.listado">{{i.titulo}}</dt>
+        <dd class='text-info' ng-repeat-end>{{i.detalle}}</dd>
     </dl>
 </div>
 
